@@ -1,13 +1,18 @@
 h1{
     font-family: monospace;
     color:#ffafcc;
+    text-align: center;
 }
 .sobre{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#fb6f92 ;
+    position: absolute;
+    top: 40%;
+    right: 60% ;
 }
 body{
-    background-color:#bde0fe;
+    background-color: #ffe5ec;
+    
 }
 h2{
   color:#b392ac ;  
@@ -19,8 +24,20 @@ h2{
 }
 .imag {
     border-radius: 100px;
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color:#ff4d6d;
+
 }
 .links{
 color:#ff4d6d;
 }
 
+.image-container {
+height:300px;
+position: relative;
+}
+ul li:nth-child(odd){
+   background-color: #bde0fe;
+}
